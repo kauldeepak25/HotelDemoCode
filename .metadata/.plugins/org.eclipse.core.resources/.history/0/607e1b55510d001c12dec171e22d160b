@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.bank.entity;
+
+/**
+ * @author kauld
+ *
+ */
+public class Customer {
+	
+
+}

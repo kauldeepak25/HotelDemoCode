@@ -1,0 +1,13 @@
+/**
+ * 
+ */
+package com.bank.controller;
+
+/**
+ * @author kauld
+ *
+ */
+public interface ServiceController {
+	
+
+}

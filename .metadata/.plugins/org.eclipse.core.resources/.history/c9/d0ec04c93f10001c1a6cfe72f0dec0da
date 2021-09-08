@@ -1,0 +1,36 @@
+package com.hotel.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hotel.entity.Hotel;
+import com.hotel.repository.HotelRepository;
+
+@Service
+public class CustomerService {
+	@Autowired
+	HotelRepository hotelRepository;
+
+//getting all student records  
+	public List<Hotel> getAllCustomers() {
+		List<Hotel> hotels = new ArrayList<Hotel>();
+		hotelRepository.findAll().forEach(customer -> hotels.add(customer));
+		return hotels;
+	}
+
+//getting a specific record  
+	public Hotel getCustomerById(int id) {
+		return hotelRepository.findById(id).get();
+	}
+
+	public void saveOrUpdate(Hotel hotel) {
+		hotelRepository.save(hotel);
+	}
+
+//deleting a specific record  
+	public void delete(int id) {
+		hotelRepository.deleteById(id);
+	}
+}

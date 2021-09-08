@@ -1,0 +1,4 @@
+INSERT INTO CUSTOMER VALUES ('Rahul', 30,'Rajinder Nagar, New Delhi','saving');
+INSERT INTO CUSTOMER VALUES ('Vijay', 34,'Pitampura, New Delhi','checking');
+INSERT INTO CUSTOMER VALUES ('Raj', 45,'Bandra, Maharastra','saving & checking'); 
+INSERT INTO CUSTOMER VALUES ('Ajay', 21,'Chandigarh, Punjab','checking');          

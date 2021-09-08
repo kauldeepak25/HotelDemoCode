@@ -1,0 +1,4 @@
+INSERT INTO CUSTOMER VALUES (11,'Marriott Inc','NYC, New York, New Delhi','saving');
+INSERT INTO CUSTOMER VALUES (12,'Vijay', 34,'Pitampura, New Delhi','checking');
+INSERT INTO CUSTOMER VALUES (13,'Raj', 45,'Bandra, Maharastra','saving & checking'); 
+INSERT INTO CUSTOMER VALUES (14,'Ajay', 21,'Chandigarh, Punjab','checking');          

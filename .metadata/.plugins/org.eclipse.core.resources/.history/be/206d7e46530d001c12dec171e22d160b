@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.bank.service;
+
+/**
+ * @author kauld
+ *
+ */
+public class CustomerRepository {
+
+}
